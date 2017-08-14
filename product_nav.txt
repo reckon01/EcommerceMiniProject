@@ -1,0 +1,131 @@
+<nav class="navbar navbar-default">
+	    <div class="container-fluid">
+	      <!-- Brand and toggle get grouped for better mobile display -->
+	      <div class="navbar-header" id="category">
+	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#defaultNavbar2"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+</div>
+	      <!-- Collect the nav links, forms, and other content for toggling -->
+	      <div class="collapse navbar-collapse" id="defaultNavbar2">
+	        <ul class="nav navbar-nav">
+	          <li class="active"></li>
+	          <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Electronics<span class="caret"></span></a>
+	            <ul class="dropdown-menu" role="menu">
+	              <li><a href="#">Mobiles</a></li>
+	              <li><a href="#">Laptops</a></li>
+	              <li><a href="#">Accessories</a></li>
+                  <li><a href="#">Others</a></li>
+	             <!-- <li class="divider"></li>
+	              <li><a href="#">Separated link</a></li>
+	              <li class="divider"></li>
+	              <li><a href="#">One more separated link</a></li> -->
+                </ul>
+              </li>
+              
+              
+              
+              
+               <li class="dropdown">
+               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Men's zone<span class="caret"></span></a>
+	            <ul class="dropdown-menu" role="menu">
+	              <li><a href="#">Shirts</a></li>
+	              <li><a href="#">T-shirts</a></li>
+	              <li><a href="#">Footwears</a></li>
+                  <li><a href="#">Sunglasses</a></li>
+	              
+                  <!--
+                  <li class="divider"></li>
+	              <li><a href="#">Separated link</a></li>
+	              <li class="divider"></li>
+	              <li><a href="#">One more separated link</a></li>
+                  -->
+                </ul>
+              </li>
+              
+               <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Women's zone<span class="caret"></span></a>
+	            <ul class="dropdown-menu" role="menu">
+	              <li><a href="#">Ethnic wear</a></li>
+	              <li><a href="#">Western wear</a></li>
+	              <li><a href="#">Footwears</a></li>
+                  <li><a href="#">Jewellery</a></li>
+	              
+                  <!--
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+	              <li class="divider"></li>
+	              <li><a href="#">One more separated link</a></li>
+                  -->
+                </ul>
+              </li>
+              
+              
+              
+               <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">BookStore<span class="caret"></span></a>
+	            <ul class="dropdown-menu" role="menu">
+	              <li><a href="#">Story books</a></li>
+	              <li><a href="#">Novels</a></li>
+	              <li><a href="#">Educational books</a></li>
+	              <!--
+                  <li class="divider"></li>
+	              <li><a href="#">Separated link</a></li>
+	              <li class="divider"></li>
+	              <li><a href="#">One more separated link</a></li>
+                  -->
+                </ul>
+              </li>
+              
+              
+             
+               <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Groceries<span class="caret"></span></a>
+	            <ul class="dropdown-menu" role="menu">
+	              <li><a href="#">Fruits & vegitables</a></li>
+	              <li><a href="#">Baby & Child</a></li>
+	              <li><a href="#">Beauty & Personal care</a></li>
+                  <li><a href="#">Households</a></li>
+                  <!--
+	              <li class="divider"></li>
+	              <li><a href="#">Separated link</a></li>
+	              <li class="divider"></li>
+	              <li><a href="#">One more separated link</a></li>
+                  -->
+                  
+                </ul>
+                
+              </li>
+              
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Sprots and Fitness<span class="caret"></span></a>
+	            <ul class="dropdown-menu" role="menu">
+	              <li><a href="#">Game kits</a></li>
+	              <li><a href="#">Jersy</a></li>
+	              <li><a href="#">Fitness kits</a></li>
+	              <!--
+                  <li class="divider"></li>
+	              <li><a href="#">Separated link</a></li>
+	              <li class="divider"></li>
+	              <li><a href="#">One more separated link</a></li>
+                  -->
+                  
+                </ul>
+              </li>
+              
+               <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Other Accessories<span class="caret"></span></a>
+	            <ul class="dropdown-menu" role="menu">
+	              <li><a href="#">Watches</a></li>
+	              <li><a href="#">Backpacks</a></li>
+	              <li><a href="#">Opticles</a></li>
+                  <li><a href="#">Perfumes</a></li>
+                  </ul>
+              </li>
+			  <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Music & Movies<span class="caret"></span></a>
+	            <ul class="dropdown-menu" role="menu">
+	              <li><a href="#">Music Albums</a></li>
+	              <li><a href="#">Movies</a></li>
+	              <li><a href="#">Classic Collections</a></li>
+                  <li><a href="#">Western Collections</a></li>
+				  </ul>
+				  </li>
+            </ul>
+             </div>
+	      <!-- /.navbar-collapse -->
+        </div>
+	    <!-- /.container-fluid -->
+    </nav>

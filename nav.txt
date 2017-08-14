@@ -1,0 +1,76 @@
+<?php 
+session_start();
+?>
+<body>
+  <div class="container-fluid">
+	  <nav class="navbar navbar-default">
+	    <div class="container">
+	      <!-- Brand and toggle get grouped for better mobile display -->
+	      <div class="navbar-header">
+	     
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#defaultNavbar1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+         </button>
+         
+       <a class="navbar-brand" href="http://localhost/OnlineStore/index.php"><b style="color:blue">shop</b><strong style="color:red">Now</strong></a>
+        
+          </div>
+	       
+	      <div class="collapse navbar-collapse" id="defaultNavbar1">
+           
+	       <?php
+		   /*
+	        <form class="navbar-form navbar-left" role="search">
+	          <div class="form-group">
+	            <input type="text" class="form-control" placeholder="What are you looking for?">
+              </div>
+	          <button type="submit" class="btn btn-default">Search</button>
+           </form>
+		   */
+		   ?>
+		   	        <form class="navbar-form navbar-left" action="http://localhost/OnlineStore/view/client_search.php" method="POST">
+	          <div class="form-group">
+	            <input type="text" class="form-control" placeholder="What are you looking for?" name="search">
+              </div>
+	          <button type="submit" class="btn btn-default">Search</button>
+           </form>
+		   
+		   
+		   
+        <ul class="nav navbar-nav navbar-right">
+	          <li><a href="http://localhost/OnlineStore/help/help.php">Help</a></li>
+            
+              <li><a href="http://localhost/OnlineStore/view/returns_client.php">easyReturn</a></li>
+          
+		 
+		   <?php
+		  
+		   if(isset($_SESSION['login']) && $_SESSION['login']!=''){
+		   ?>
+		  
+	              <li><a href="#"><?php echo $_SESSION['login']; ?></a></li>
+	              <li><a href="http://localhost/OnlineStore/controller/logout.php">Logout</a></li>
+                
+		<?php
+		}else{
+		?>
+             
+	              <li><a href="http://localhost/OnlineStore/view/client_login.php">Login</a></li>
+	              <li><a href="http://localhost/OnlineStore/view/register_client.php">Register</a></li>
+              
+			
+			  <?php
+			  }
+			  ?>
+			 
+
+              <li><a href="http://localhost/OnlineStore/controller/cart.php">Cart items</a></li>
+            </ul>
+          </div>
+	      <!-- /.navbar-collapse -->
+        </div>
+	    <!-- /.container-fluid -->
+      </nav>

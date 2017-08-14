@@ -1,0 +1,64 @@
+<footer id="footer">
+   <div class="container">
+    <div class="row">
+            <div class="col-sm-3">
+        <h4>Information</h4>
+        <ul class="list-unstyled">
+                    <li><a href="http://localhost/OnlineStore/help/about.php">About Us</a></li>
+                   <!-- <li><a href="#">Delivery Information</a></li>-->
+                    <li><a href="http://localhost/OnlineStore/help/privacy_statements.php">Privacy Policy</a></li>
+                    <li><a href="http://localhost/OnlineStore/help/terms&conditions.php">Terms &amp; Conditions</a></li>
+                  </ul>
+      </div>
+            <div class="col-sm-3">
+        <h4>Customer Service</h4>
+        <ul class="list-unstyled">
+          <li><a href="http://localhost/OnlineStore/help/help.php">Contact Us</a></li>
+          <li><a href="http://localhost/OnlineStore/view/myorders.php">My Orders</a></li>
+		  <li><a href="http://localhost/OnlineStore/view/client_feedback.php">Feedback</a></li>
+          <!--<li><a href="#">Site Map</a></li>-->
+        </ul>
+      </div>
+     <!-- <div class="col-sm-3">
+        <h4>Extras</h4>
+        <ul class="list-unstyled">
+          <li><a href="#">Brands</a></li>
+          <li><a href="#">Gift Certificates</a></li>
+          <li><a href="#">Affiliates</a></li>
+          <li><a href="#">Specials</a></li>
+        </ul>
+      </div>-->
+      <div class="col-sm-3">
+        <h4>My Account</h4>
+        <ul class="list-unstyled">
+          <li><a href="http://localhost/OnlineStore/controller/cart.php">My Account</a></li>
+          <li><a href="http://localhost/OnlineStore/view/track_order.php">Track Order</a></li>
+          <li><a href="http://localhost/OnlineStore/controller/cart.php">Wish List</a></li>
+         <!-- <li><a href="#">Newsletter</a></li>-->
+        </ul>
+      </div>
+	  
+	  <div class="col-sm-3">
+        <h4>Admin Panel</h4>
+        <ul class="list-unstyled">
+          <li><a href="http://localhost/OnlineStore/admin/admin_login.html">Login</a></li>
+          <li><a href="http://localhost/OnlineStore/admin/main.php">Maintenance</a></li>
+         <li><a href="http://localhost/OnlineStore/admin/developer.php">Developers</a></li>
+        </ul>
+      </div>
+	  
+	  
+	  
+    </div>
+    <hr/>
+     <p align="center"><a href="http://localhost/OnlineStore/index.php"><b style="color:blue">shop</b><strong style="color:red">Now</strong></a> &copy; <em style="color:blue">2016</em></p>
+  </div>
+</footer>
+  </div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="../js/jquery-1.11.2.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed --> 
+	<script src="../js/bootstrap.js"></script>
+  </body>
+</html>
